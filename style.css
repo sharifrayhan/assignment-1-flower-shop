@@ -364,6 +364,7 @@
 
 .container-extra{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -371,20 +372,25 @@
     margin-right: 150px;
     gap: 20px;
 
+
 }
 
 .section-extra{
     width: 100%;
     height: 100vh;
     background-color: #fceef1;
+    background-image: url(Images/bg.jpg);
+    background-size: contain;
 }
 
 .video{
     width: auto;
-    height: 250px; 
-    background-image: url(Images/border.png);
-    background-size: 1500px 1500px;
+    height: 200px; 
+}
 
+.video-box{
+    display: flex;
+    gap: 10px;
 }
 
 
