@@ -12,7 +12,11 @@
     align-items: center;
     height: 100vh;
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 120px;
+    background-image: url(Images/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto 600px;
 
 }
 
@@ -380,12 +384,13 @@
     height: 100vh;
     background-color: #fceef1;
     background-image: url(Images/bg.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .video{
     width: auto;
     height: 200px; 
+    box-shadow: 0 0 30px black;
 }
 
 .video-box{
@@ -395,7 +400,7 @@
 
 
 .text-box-extra h1{
-    color: #272727;
+    color: rgb(59, 59, 59);
     font-family: Lato;
     font-size: 30px;
     font-style: normal;
@@ -411,3 +416,35 @@
     font-weight: 400;
     line-height: 30px;
 }
+
+.table{
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.text-box-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table tr{
+    background-color: #d9eff1;
+    
+}
+
+.table td{
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons i{
+    font-size: 30px;
+}
+
